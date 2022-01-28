@@ -1,0 +1,210 @@
+[
+  {
+    "text": "good afternoon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5456196069717407
+    }
+  },
+  {
+    "text": "\tAre there financial assistance services available?",
+    "intent": "Mentors",
+    "intent_prediction": {
+      "name": "Contact",
+      "confidence": 0.5226753354072571
+    }
+  },
+  {
+    "text": "How do I convince my child to participate in a lesson?",
+    "intent": "Help",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.5719481110572815
+    }
+  },
+  {
+    "text": "\tHow do I persuade my child to attend a class?",
+    "intent": "Help",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.6250168085098267
+    }
+  },
+  {
+    "text": "\tHow can I convince my child to take part in the class?",
+    "intent": "Help",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.5251253247261047
+    }
+  },
+  {
+    "text": "\tWhat can I do to convince my child to take a course?",
+    "intent": "Help",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.7348282933235168
+    }
+  },
+  {
+    "text": "\tHow can I persuade my child to take a lesson?",
+    "intent": "Help",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.7007575631141663
+    }
+  },
+  {
+    "text": "\tHow to persuade my child to take part in a course?",
+    "intent": "Help",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.6918036341667175
+    }
+  },
+  {
+    "text": "\tHow do I talk my child into taking a course?",
+    "intent": "Help",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.6842806935310364
+    }
+  },
+  {
+    "text": "\tHow does the course support her in other tasks such as homework, etc.?",
+    "intent": "Help",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.5552225708961487
+    }
+  },
+  {
+    "text": "\tHow does the course help her perform other duties such as homework, etc.?",
+    "intent": "Help",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.5260212421417236
+    }
+  },
+  {
+    "text": "\tHow does the course assist with other tasks such as assignments, etc.?",
+    "intent": "Help",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.5033068060874939
+    }
+  },
+  {
+    "text": "\tHow do I get my kid to take a class?",
+    "intent": "Suggestions",
+    "intent_prediction": {
+      "name": "Help",
+      "confidence": 0.5854030847549438
+    }
+  },
+  {
+    "text": "\tHow does the course help them with other tasks like homework, etc.?",
+    "intent": "Suggestions",
+    "intent_prediction": {
+      "name": "Help",
+      "confidence": 0.5242587924003601
+    }
+  },
+  {
+    "text": "\tHow does the course help them complete other tasks such as homework, etc.?",
+    "intent": "Suggestions",
+    "intent_prediction": {
+      "name": "Help",
+      "confidence": 0.5950886607170105
+    }
+  },
+  {
+    "text": "\tHow does the course help her with other tasks like homework and so on?",
+    "intent": "Suggestions",
+    "intent_prediction": {
+      "name": "Help",
+      "confidence": 0.6339678168296814
+    }
+  },
+  {
+    "text": "\tHow is the course helping her with other tasks such as homework, etc.?",
+    "intent": "Suggestions",
+    "intent_prediction": {
+      "name": "Help",
+      "confidence": 0.49711984395980835
+    }
+  },
+  {
+    "text": "\tHow does it help her with other tasks such as homework, etc.?",
+    "intent": "Suggestions",
+    "intent_prediction": {
+      "name": "Help",
+      "confidence": 0.5535104274749756
+    }
+  },
+  {
+    "text": "\tIs it a better experience than other platforms?",
+    "intent": "Special",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.6683104038238525
+    }
+  },
+  {
+    "text": "\tDoes the platform offer more experience than other platforms?",
+    "intent": "Special",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.5673536062240601
+    }
+  },
+  {
+    "text": "\tDoes the platform offer a better experience than the rest of the platforms?",
+    "intent": "Special",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.6436781287193298
+    }
+  },
+  {
+    "text": "\tIs the platform a better experience compared to other platforms?",
+    "intent": "Special",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.6139236688613892
+    }
+  },
+  {
+    "text": "\tDoes the platform offer a superior experience compared to other platforms?",
+    "intent": "Special",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.5576433539390564
+    }
+  },
+  {
+    "text": "\tIs the platform better than any other platforms?",
+    "intent": "Special",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.6506959795951843
+    }
+  },
+  {
+    "text": "\tDoes this platform deliver a better experience than other platforms?",
+    "intent": "Special",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.5734359622001648
+    }
+  },
+  {
+    "text": "\tDoes the platform offer a better experiment than other platforms?",
+    "intent": "Special",
+    "intent_prediction": {
+      "name": "Suggestions",
+      "confidence": 0.5237880349159241
+    }
+  }
+]
