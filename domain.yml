@@ -1,0 +1,218 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - thanks
+  - Achievments
+  - Company_details
+  - Mentors
+  - Cancellation_and_Refund
+  - Prerequisite
+  - Coding_Languages
+  - Multiple_courses
+  - Specific_questions2
+  - Specific_questions3
+  - Specific_questions4
+  - Missed_Classes
+  - Specific_questions5
+  - Specific_questions6
+  - Eligible
+  - Specific_questions1
+  - Specific_questions
+  - Monitor
+  - Time
+  - Size
+  - Outcome
+  - Help
+  - Suggestions
+  - Offers
+  - Achievements
+  - Special
+  - Contact
+  - Differences
+  - Live_class_contents
+  - Course_contents
+  - Live_classes_prices
+  - Course_price
+  - Statistics
+  - Values
+  - Partners
+  - Course_levels
+  - Enrollment
+  - Change
+  - Programming_languages
+  - Coding
+  - Payment
+  - Options
+  - Courses
+
+
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+    - text: "Yes you are talking to a bot"
+
+  utter_thanks:
+    - text: "You're welcome"
+
+
+  utter_Achievments:
+  - text: "The students at Code Karo Yaaro have made some amazing applications and games like the AnimalSoundApp, DemonWarriorApp, VehicleSoundApp, AnimalFootballBattleGame, FlappyBirdGame and much more.."
+
+
+  utter_Company_details:
+  - text: "Manish Motghare founded Code Karo Yaaro in the year 2020. Code karo yaaro is Nagpur based company with a vision to make every child literate in computer science and to generate a caliber of coding to enhance life experience. We want to develop the thinking ability of every child, by advancing computer science with new technologies and supporting them for a bright future."
+
+
+  utter_mentors:
+  - text: "Our highly motivated team consists of highly experienced, knowledgeable intellectuals from the education and software industry with relevant experience of more than a decade.The ‘Code Karo Yaaro’, is mentored by the people who have wide experience in the software development and education industry."
+
+  utter_Cancellation_and_Refund:
+  - text: "For cancellations and refund please call +91 8010996763 or you can drop a mail on: info@codekaroyaaro.com"
+
+  utter_Prerequisite:
+  - text: "There are no prerequisites to join the course. Anyone can learn to code."
+
+  utter_Coding_Languages:
+  - text: "1. Top 3 programming languages for kids who are 7 years and above : (a) Scratch (b) Alice (c) Blocky  2. Top 3 programming languages for kids who are 10 years and above: (a) JavaScript (b) Java (c)HTML+CSS 3. Top 3 programming languages for kids who are 14 years and above: (a) Python (b) C++ (c) C#"
+
+  utter_Multiple_courses:
+  - text: "Yep! Multiple courses are allowed and encouraged! We will manage the classes after discussing with your designated instructor"
+
+  utter_Specific_questions2:
+  - text: "Artificial Intelligence and Machine Learning are the two core courses if you want to build a chabot. "
+
+  utter_Specific_questions3:
+  - text: "Yes, forming a deep undestanding of the process of coding is always our goal, and for that we teach the basics."
+
+  utter_Specific_questions4:
+  - text: "Game App Development is one of the courses that teaches you everything about that."
+
+  utter_Missed_Classes:
+  - text: "No problem! But you should inform your instructor on time"
+
+  utter_Specific_questions5:
+  - text: "Yes, you will recieve a certificate, once the course is completed"
+
+  utter_Specific_questions6:
+  - text: "yes, the study/research materials will be provided by the mentors as per the choice of your course"
+
+
+
+  utter_Eligible:
+  - text: "Yes, any student from class/grade 1 to 12 can enroll. To Book a free trial or join the free course, click on 'Book free trial' on our website homepage. For more info you can call us on +91 8010996763 or you can drop a mail on info@codekaroyaaro.com”"
+
+  utter_Specific_questions1:
+  - text: "The 'Mobile Development' course present on our platform will be a sure path."
+
+  utter_Specific_questions:
+  - text: "There is a 'Web Development' course specifically designed for children. Please check it out."
+
+  utter_Monitor:
+  - text: "We provide 1-1 interaction in the live classes.We do monitor kids individually.We teach in an interactive manner that a child need not be monitored by his/her parent."
+
+  utter_Time:
+  - text: "It depends on the choice of your course and the number of classes alloted. Keeping in mind the betterment of students and mentors, we will divide the time in an efficient way. For more info you can call us on +91 8010996763 or you can drop a mail on info@codekaroyaaro.com"
+
+  utter_Size:
+  - text: "It depends on the number of admissions we get.We make sure that an individual can learn effectively with all the available resources.Keeping in my mind the betterment of students and mentors we will divide the students in an efficient way."
+
+  utter_Outcome:
+  - text: "A student can create/build apps and games with great ease after they finish their course."
+
+
+  utter_Help:
+  - text: "We teach a lot of things here.Visuals help to create an impact on an individual to understand the courses.A child needs to be explained about what he/she learns in an innovative way. Child needs a good exposure.He/she needs to develop interest in whatever they do.It helps them for the overall development and they can perform all other chores easily."
+
+  utter_Suggestions:
+  - text: "It completely depends on the age and interest of an individual.Students need to be guided properly.You can contact us regarding this."
+
+  utter_Offers:
+  - text: "No such schemes as of now."
+
+
+  utter_Special:
+  - text: "Here in code karo yaaro we have instructors vastly experienced teachers and curriculum which makes students eager to learn coding"
+
+
+  utter_Contact:
+  - text: "You can call us on +91 8010996763 or you can drop a mail on info@codekaroyaaro.com"
+
+  utter_Differences:
+  - text: "The number of sessions and effectiveness of the course."
+
+  utter_Live_class_contents:
+  - text: "We teach Introduction to programming languages,GameApp+MobileApp+Website"
+
+  utter_Course_contents:
+  - text: "For 1-4th grades we have Scratch Programming, Dance With Coding, Coding With Kids,Artist Lab and for 5-10+ grades we have Introduction to programming languages,GameApp+MobileApp+Website"
+
+  utter_Live_classes_prices:
+  - text: "2800 INR for basic,15360 INR for starter and 26880 INR for yearly plan"
+
+
+  utter_Course_price:
+  - text: "4500 INR for starter,8000 INR for intermediate and 12000 INR for professional"
+
+  utter_Statistics:
+  - text: "10000+ students and 480000+ classes conducted"
+
+  utter_Values:
+  - text: "We provide better Technologies,innovations,project based learning,Entrepreneurship,DesignThinkingApproach,Experienced and friendly instructors"
+
+
+  utter_Partners:
+  - text: "Yes we do have partners like GreyKernel,FolksMotor and PLMNordic"
+
+
+  utter_Course_levels:
+  - text: "Loading basic,starter and yearly plans..."
+
+  utter_Enrollment:
+  - text: "Choose Course which you want to enroll yourself.Fill the details Make your payment and enjoy CODING"
+
+  utter_Change:
+  - text: "For changing of Batch Timing or Teacher you need to contact your dedicated Academic Mentor."
+
+  utter_Programming_languages:
+    - text: "This depends on the age of the child and if the child has prior knowledge of computer programming. Call to talk with our counselor to find out which course is most appropriate for your child."
+
+  utter_Coding:
+  - text: "Coding gives your child a competitive edge, teaches persistence, improves problem-solving skills, improves creativity"
+
+
+  utter_Payment:
+  - text: "You can pay digitally!!,just dial +918010996763 for more information"
+
+  utter_Options:
+  - text: "I can guide you through courses list"
+
+  utter_Courses:
+  - text: "The available courses are:\n 1.WebDevelopment\n 2.MobileAppDevelopment\n 3.ArtificialIntelligence\n 4.Pythonprogramming\n 5.GameAppDevelopment"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <style>
+        .rw-conversation-container .rw-header{background-color: #fcba03;}
+        .rw-conversation-container .rw-messages-container .rw-response{background-color: #fcba03;}
+        .rw-conversation-container .rw-messages-container .rw-client{background-color: #000000;}
+        .rw-widget-embedded{background-color: #fcba03;}
+        .rw-launcher{background-color: #fcba03;}
+
+
+
+    </style>
+<script>!(function () {
+  let e = document.createElement("script"),
+    t = document.head || document.getElementsByTagName("head")[0];
+  (e.src =
+    "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+    // Replace 1.x.x with the version that you want
+    (e.async = !0),
+    (e.onload = () => {
+      window.WebChat.default(
+        {
+
+<!--          initPayload = '\greet'-->
+          customData: { language: "en" },
+          socketUrl: "http://localhost:5005",
+          title : "CKY Bot"
+        },
+        null
+      );
+    }),
+    t.insertBefore(e, t.firstChild);
+})();
+</script>
+
+</body>
+</html>
