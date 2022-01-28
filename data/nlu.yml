@@ -1,0 +1,2088 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: thanks
+  examples: |
+    -	thank you
+    -	thankyou
+    -	tq
+    -	thanks
+    -	thanks a lot
+    -	thank you very much
+
+
+- intent: Achievments
+  examples: |
+    - what are your achievments?
+    - what have you achieved?
+    - What are the achievments you have?
+    - What are the things you have achieved?
+    - What achievments do you have?
+    - what are your accomplishments?
+    - what have you accomplishments?
+    - What are the accomplishments you have?
+    - What are the things you have accomplishments?
+    - What accomplishments do you have?
+    - How will you achieve your targets?
+    - How will you accomplish your targets?
+    - How will you gain your targets?
+    - What have you gained?
+    - showcase student achievements
+    - what did students develop during the courses
+    - student works
+
+- intent: Company_details
+  examples: |
+    - Who is your founder?
+    - When was your company started?
+    - what is code karo yaaro?
+    - company details
+    - where is main branch of code karo yaaro?
+    - details of code karo
+    - Why code karo yaaro for my kid?
+    - What is the vision of code karo yaaro?
+    - Mission of code karo yaaro
+    - CKY mission
+    - Code karo yaaro description
+    - code karo yaaro
+    - Code karo yaaro founder
+    - Why code karo yaaro for my kid?
+    - Details of code karo yaaro
+    - Is code karo yaaro an e-learning platform?
+    - Main branch of code karo yaaro
+    - who started code karo yaaro?
+    - Information about code karo yaaro
+    - code karo yaaro launch year
+    - Company information
+    - Why should i choose code karo yaaro?
+    -	Who is your founding member?
+    -	Who is this founder of yours?
+    -	Which one is your founder?
+    -	Who are you founder of?
+    -	Who is your leader?
+    -	Who is your owner?
+    -	What about your founder?
+    -	When did your company come into existence?
+    -	When did your business get off the ground?
+    -	When was your business set up?
+    -	When did this business start?
+    -	When did your business come to life?
+    -	When did your company first appear?
+    -	When did you become a business?
+    -	When did your business first take place?
+    -	where is the primary branch of codekaroyaaro?
+    -	Which is the main branch of codekaroyaaro?
+    -	where to find the main branch of codekaroyaaro?
+    -	Where can I find the main branch of codekaroyaaro?
+    -	where the main branch of codekaroyaaro stands?
+    -	where is the main branch of code karoyaaro?
+    -	where is the main part of codekaroyaaro?
+
+
+- intent: Mentors
+  examples: |
+    - Are the mentors available at any time?
+    - Will the mentors clarify doubts at any instant?
+    - Will the mentors ready to clear doubts?
+    - At what time before the class the doubt’s session will be available?
+    - Will the mentors available for doubt’s sessions?
+    - Will the mentors communicate friendly with the kids?
+    - Will mentors only communicate in English?
+    - Will mentors give permission to kids if they are unable to join?
+    - Will mentors teach the missed classes the next day  of class?
+    - Are the mentors ready to teach advance class if the kid is interested?
+    - Will the mentors provide  contact information with students?
+    - Are the mentors well trained and experienced?
+    - Will mentors explain everything clearly?
+    - Will the mentors explain all topics from basics?
+    - Will the mentors explain as many times if the student cannot understand?
+    - Are guardians highly skilled?
+    -	Are the mentors highly skilled?
+    -	Are their tutors highly skilled?
+    -	Are mentors highly trained?
+    -	Are the tutors high-skilled?
+    -	Are teachers highly qualified?
+    -	Do the tutors have high qualifications?
+    -	How well qualified are tutors?
+    -	Can you speak to me about the mentors?
+    -	What about the mentors?
+    -	Can you tell me what the mentors are?
+    -	Can you comment on the mentors?
+    -	Can you talk to me about mentorship?
+    -	Tell me about the mentors?
+    -	Can you talk a little bit about the mentors?
+    -	Can I ask about the mentors?
+    -   Tell me about teachers
+    -
+
+    -	Are there financial assistance services available?
+- intent: Cancellation_and_Refund
+  examples: |
+    - How can I cancel my membership?
+    - How can you cancel your subscription?
+    - How do I unsubscribe?
+    - How to cancel your membership?
+    - How do I cancel the season ticket?
+    - How do I cancel this service?
+    - How can the subscription be canceled?
+    - How should I cancel a subscription?
+    - Do I get a refund if we cancel my current package?
+    - Is there a refund if we waive my current package?
+    - Is there a refund in case we cancel my current package?
+    - Is there a return if we cancel my current plan?
+    - Is there any reimbursement if we cancel my current package?
+    - Is there a refund for cancelling my current plan?
+    - Can I get a refund if we cancel my existing pack?
+    - Is there a refund for canceling my existing package?
+    - any reimbursement if we leave the course mid-way?
+    - any repayment if we leave the course halfway?
+    - any refund if we leave the course half way?
+    - any reimbursement should we leave the course halfway?
+    - any refunds should we leave the course mid-way?
+    - any refund if we exit the course halfway?
+    - any reimbursement if we leave the class halfway?
+    - all refunds if we leave the course halfway?
+    - Cancel my membership, please.
+    - Cancel my season ticket.
+    - Call off my membership.
+    - You should cancel my membership.
+    - Cancel my phone service.
+    - I want you to cancel my service.
+    - Get rid of my subscription.
+    - You're canceling my membership.
+    - How do I cancel my service?
+    - How do I unsubscribe?
+    - How do I terminate my subscription?
+    - How can I withdraw my subscription?
+    - Where do I cancel my subscription?
+    - How to cancel my subscription?
+    -
+
+- intent: Prerequisite
+  examples: |
+    - Must my child be a good mathematician to be a coder?
+    - Does my child need to be good at mathematics to be a coder?
+    - Does my child need to be good at math to be a code writer?
+    - Must my kid be good at mathematics to be a coder?
+    - Does my kid need to be good in math to be a coder?
+    - Do I need to be good at math to be a coder?
+    - Must my child be good at math to be a coder?
+    - Should my child be good in mathematics to be a coder?
+    - Does my child have to be good at English to be a coder?
+    - Should my child be proficient in English to be a coder?
+    - Does my child need to speak English to be a coder?
+    - Does the child need to be good in English to be a coder?
+    - Does my kid need to be fluent in English to be a coder?
+    - Must my child speak English to become a coder?
+    - Must my child be good in English to be an encoder?
+    - Does my child need to be good in English for coding?
+    - Are there any requirements to join this course?
+    - Are there requirements to take part in this course?
+    - Are there any requirements to participate in this training?
+    - Do you have any requirements to participate in this course?
+    - Are there any requirements to attend this class?
+    - Are there any requirements for attendance at this course?
+    - Is there a requirement to attend the course?
+    - Are there requirements for you to participate in this course?
+    - What do we mean by accommodation for special needs students or students learning English?
+    - What is meant by accommodation for special needs students or English learners?
+    - What is meant by accommodation for pupils with special needs or pupils learning English?
+    - What does accommodation mean for students with special needs or English learners?
+    - What are accommodations for special needs students and English learners?
+    - Show me the prerequisites for joining the class
+    - Prerequsities
+
+- intent: Coding_Languages
+  examples: |
+    - What are the various coding languages?
+    - Which are the different coding languages?
+    - Which are the various coding languages?
+    - What are the various languages of coding?
+    - What are various languages of coding?
+    - What are different languages of coding?
+    - Which languages are used for coding?
+    - Describe Coding Languages
+    - Explain different coding languages.
+    - Tell me about Coding languages.
+    - Tell me about Language.
+    - What are Languages?
+    - What is a Language?
+    - Describe Language.
+    - Explain Language.
+
+- intent: Multiple_courses
+  examples: |
+    - Can I attend multiple classes at once?
+    - Can I take a number of courses at once?
+    - Can I attend several courses at one time?
+    - Can I take part in several classes?
+    - Is it possible to take several courses at the same time?
+    - May I participate in several courses at once?
+    - Can I take more than one class at the same time?
+    - Can I complete several courses simultaneously?
+    - My son wants to follow several courses?
+    - My son wants to go to a bunch of classes?
+    - My son wants to take a couple of lessons?
+    - My boy wants to take several classes?
+    - My son wants more than one class?
+    - My son is taking several classes?
+    - My son wants to attend multiple classes?
+    - My kid wants to take a few classes?
+    - Will batch processing times be flexible when we join other classes?
+    - Will lot processing times be flexible when we sign up for other courses?
+    - Will batch processing times be flexible when adhering to other courses?
+    - Will batch processing times be flexible as we enroll in other courses?
+    - Will the lot length be flexible when we take other courses?
+    - Will the duration of the batches be flexible with other courses?
+    - Will there be flexibility in the length of the batches when we take other courses?
+    - Will the duration of the prizes be flexible when we go to other courses?
+
+- intent: Specific_questions2
+  examples: |
+    -   What class should my child be taught if he wants to build a chatbot?
+    -   What class should my child be taught if she wants to build a chatbot?
+    -	What class should my kid learn if he wants to build a chatbot?
+    -	What class should my kid learn if she wants to build a chatbot?
+    -	What class would my child have to learn if he wants to build a chatbot?
+    -	What class would my child have to learn if she wants to build a chatbot?
+    -	What class should my child learn if he wishes to build a chatbot?
+    -	What class should my child learn if she wishes to build a chatbot?
+    -	What course should my child learn if he is going to build a chatbot?
+    -	What course should my child learn if she is going to build a chatbot?
+    -	What course should my child learn if he wants to build a chat bot?
+    -	What course would my child be expected to learn if he wants to build a chatbot?
+    -	What course would my child be expected to learn if she wants to build a chatbot?
+    -	What class should my child learn if he wants to construct a chatbot?
+    -	What class should my child learn if she wants to construct a chatbot?
+    -	what courses for data science, deeplearning, machine learning, robotics?
+    -	which courses for data science, deeplearning, machine learning, robotics?
+    -	which courses for data science, deep learning, machine learning, robotics?
+    -	which courses in data science, deeplearning, machine learning, robotics?
+    -	what courses for data science, deeplearning, machine learning, robotic?
+    -	what courses in data science, deep learning, machine learning, robotics?
+    -	what lessons for data science, deeplearning, machine learning, robotics?
+    -	What classes for data science, deeplearning, machine learning, robotics?
+
+- intent: Specific_questions3
+  examples: |
+    - Are you teaching Python?
+    -	Are you a Python teacher?
+    -	You teach Python, right?
+    -	You teach Python or something?
+    -	You teach a Python class?
+    -	You teach Python school?
+    -	You still teaching Python?
+    -	You teach Python lessons?
+    -	Are you a java teacher?
+    -	You teach java, right?
+    -	You teach java lessons?
+    -	You teach java classes?
+    -	You teach java or something?
+    -	You teach java school?
+    -	You teach java courses?
+    -	Do you learn java?
+    -	Does the school begin the course from the basics?
+    -	Does the faculty begin the class from the basics?
+    -	Does the faculty begin the course based on the basics?
+    -	Does the school start the course from the ground up?
+    -	Is the teaching staff starting the course from the basics?
+    -	Is the faculty beginning the course from the basics?
+    -	Does the faculty begin the course from the building blocks?
+    -	Does the teaching staff begin the course from the bases?
+    -   Do you teach coding basics?
+    -   Do you teach basics?
+    -   Basics.
+
+- intent: Specific_questions4
+  examples: |
+    - What course for developing a game app?
+    -	Which course for developing a game application?
+    -	What course will develop a game application?
+    -	What course to develop an application?
+    -	What course to develop a gambling application?
+    -	How to develop a game application?
+    -	What course is involved in developing a game application?
+    -	What class to develop a game app?
+    -	My child wants to build a game. What course does it take?
+    -	My kid wants to build a game. What class is appropriate?
+    -	My kid wants to build a game. What course works?
+    -	My kid wants to make a game. Which course is appropriate?
+    -	My child wants to build a game. What is the correct course?
+    -	My child wants to make a play. What course is appropriate?
+    -	My child wants to build a game. Which class is right for him?
+    -	My child would like to build a game. What course is appropriate?
+    -	My child likes mobile games. What lessons do you suggest?
+    -	my child enjoys mobile games. What course would you suggest?
+    -	My kid loves mobile games. What class would you suggest?
+    -	My child loves mobile games. What is your suggested course?
+    -	My child loves mobile games. What class do you recommend?
+    -	My child likes mobile games. What course do you propose?
+    -	My child is a fan of mobile games. What class do you suggest?
+    -	My child loves mobile games. What course would you like to take?
+
+- intent: Missed_Classes
+  examples: |
+    - What if my child is missing a session for a personal reason?
+    -	What if my child misses a session due to personal reasons?
+    -	What should my child miss a session for a personal reason?
+    -	What if my child misses a session because of a personal issue?
+    -	What do I do when my child misses a session for a personal reason?
+    -	What do I do if I miss a session for a personal reason?
+    -	What if my child misses a class for a personal reason?
+    -	What if my child misses a session on a personal matter?
+    - My Child missed a class.
+    - My child skipped a class.
+    - What will happen if my child misses a class?
+    - What will happen if my child skips a class?
+    - Is it okay to skip a class?
+    - Is it okay to miss a class?
+    - Can missing classes be retaken?
+
+
+- intent: Specific_questions5
+  examples: |
+    -	Is my child receiving a certificate after graduation?
+    -	Will my child obtain a certificate after completing the course?
+    -	Is my child receiving a certificate after the course has ended?
+    -	Does my child receive a certificate at the end of the class?
+    -	Does my child receive a certificate once the course is completed?
+    -	Is my child receiving a certificate upon completion of the course?
+    -	Is my child certified after completing the course?
+    -	Does my child obtain a certificate after school?
+    -	Are certificates available?
+    -	Are certifications provided?
+    -	Do certificates exist?
+    -	Do you have certificates?
+    -	Are certificate(s) provided?
+    -	Is there a certificate?
+    -	Are certificates provided at this time?
+    -	Are certificates in place?
+
+- intent: Specific_questions6
+  examples: |
+    -	Is the research material provided?
+    -	Is the study material supplied?
+    -	Is the survey material provided?
+    -	Is the study material available?
+    -	Is education material provided?
+    -	Is the research material supplied?
+    -	Is the study package provided?
+    -	Is the research equipment provided?
+    -	Do you provide any study material?
+    -	Do you provide any research material?
+
+
+- intent: Eligible
+  examples: |
+    - I am a Class 1 student. Can I sign up?
+    - I am a Class 1 student. Am I eligible to register?
+    - I am a Grade 1 student. Can I register?
+    - I am a Class 1 student. May I apply?
+    -	I am a class 1 student. Can I register?
+    -	I am a Class1 student. Can I register?
+    -	I am a Class 1 student. Am I able to enroll?
+    -	I am a Class 1 student. Can I check in?
+    -	I am a Class 2 student. Can I sign up?
+    -	I am a Class 2 student. Am I eligible to register?
+    -	I am a Grade 2 student. Can I register?
+    -	I am a Class 2 student. May I apply?
+    -	I am a class 2 student. Can I register?
+    -	I am a Class 2 student. Can I register?
+    -	I am a Class 2 student. Am I able to enroll?
+    -	I am a Class 2 student. Can I check in?
+    -	I am a Class 3 student. Can I sign up?
+    -	I am a Class 3 student. Am I eligible to register?
+    -	I am a Grade 3 student. Can I register?
+    -	I am a Class 3 student. May I apply?
+    -	I am a class 3 student. Can I register?
+    -	I am a Class 3 student. Can I register?
+    -	I am a Class 3 student. Am I able to enroll?
+    -	I am a Class 3 student. Can I check in?
+    -	I am a Class 4 student. Can I sign up?
+    -	I am a Class 4 student. Am I eligible to register?
+    -	I am a Grade 4 student. Can I register?
+    -	I am a Class 4 student. May I apply?
+    -	I am a class 4 student. Can I register?
+    -	I am a Class 4 student. Can I register?
+    -	I am a Class 4 student. Am I able to enroll?
+    -	I am a Class 4 student. Can I check in?
+    -	I am a Class 5 student. Can I sign up?
+    -	I am a Class 5 student. Am I eligible to register?
+    -	I am a Grade 5 student. Can I register?
+    -	I am a Class 5 student. May I apply?
+    -	I am a class 5 student. Can I register?
+    -	I am a Class 5 student. Can I register?
+    -	I am a Class 5 student. Am I able to enroll?
+    -	I am a Class 5 student. Can I check in?
+    -	I am a Class 6 student. Can I sign up?
+    -	I am a Class 6 student. Am I eligible to register?
+    -	I am a Grade 6 student. Can I register?
+    -	I am a Class 6 student. May I apply?
+    -	I am a class 6 student. Can I register?
+    -	I am a Class 6 student. Can I register?
+    -	I am a Class 6 student. Am I able to enroll?
+    -	I am a Class 6 student. Can I check in?
+    -	I am a Class 7 student. Can I sign up?
+    -	I am a Class 7 student. Am I eligible to register?
+    -	I am a Grade 7 student. Can I register?
+    -	I am a Class 7 student. May I apply?
+    -	I am a class 7 student. Can I register?
+    -	I am a Class 7 student. Can I register?
+    -	I am a Class 7 student. Am I able to enroll?
+    -	I am a Class 7 student. Can I check in?
+    -	I am a Class 8 student. Can I sign up?
+    -	I am a Class 8 student. Am I eligible to register?
+    -	I am a Grade 8 student. Can I register?
+    -	I am a Class 8 student. May I apply?
+    -	I am a class 8 student. Can I register?
+    -	I am a Class 8 student. Can I register?
+    -	I am a Class 8 student. Am I able to enroll?
+    -	I am a Class 8 student. Can I check in?
+    -	I am a Class 9 student. Can I sign up?
+    -	I am a Class 9 student. Am I eligible to register?
+    -	I am a Grade 9 student. Can I register?
+    -	I am a Class 9 student. May I apply?
+    -	I am a class 9 student. Can I register?
+    -	I am a Class 9 student. Can I register?
+    -	I am a Class 9 student. Am I able to enroll?
+    -	I am a Class 9 student. Can I check in?
+    -	I am a Class 10 student. Can I sign up?
+    -	I am a Class 10 student. Am I eligible to register?
+    -	I am a Grade 10 student. Can I register?
+    -	I am a Class 10 student. May I apply?
+    -	I am a class 10 student. Can I register?
+    -	I am a Class10 student. Can I register?
+    -	I am a Class 10 student. Am I able to enroll?
+    -	I am a Class 10 student. Can I check in?
+    -	I am a Class 11 student. Can I sign up?
+    -	I am a Class 11 student. Am I eligible to register?
+    -	I am a Grade 11 student. Can I register?
+    -	I am a Class 11 student. May I apply?
+    -	I am a class 11 student. Can I register?
+    -	I am a Class11 student. Can I register?
+    -	I am a Class 11 student. Am I able to enroll?
+    -	I am a Class 11 student. Can I check in?
+    -	I am a Class 12 student. Can I sign up?
+    -	I am a Class 12 student. Am I eligible to register?
+    -	I am a Grade 12 student. Can I register?
+    -	I am a Class 12 student. May I apply?
+    -	I am a class 12 student. Can I register?
+    -	I am a Class 12 student. Can I register?
+    -	I am a Class 12 student. Am I able to enroll?
+    -	I am a Class 12 student. Can I check in?
+    -	I am not from India. I am an international student. Can I participate in the course?
+    -	I am not from India. I am a foreign student. Can I join the class?
+    -	I do not belong to India. I am an international student. Can I join the class?
+    -	I am not from India. I am a foreign student. Can I take part in this course?
+    -	I am not an Indian. I am an international student. Can I join the course?
+    -	I do not belong to India. I am an international student. Can I take part in this course?
+    -	I do not belong to India. I am a foreign student. May I participate in this course?
+    -	I am not an Indian. I am a foreign student. Can I attend the course?
+    -	My child is in grade 1, can he/she take the course?
+    -	My child is a Grade 1 student. Can he or she take the course?
+    -	My child is in grade 1. Can he/she take the course?
+    -	My child is in Grade 1. Is he or she eligible to take the course?
+    -	My child is a freshman. Can he/she take the class?
+    -	My child is in grade 2, can he/she take the course?
+    -	My child is a Grade 2 student. Can he or she take the course?
+    -	My child is in grade 2. Can he/she take the course?
+    -	My child is in Grade 2. Is he or she eligible to take the course?
+    -	My child is in grade 3, can he/she take the course?
+    -	My child is a Grade 3 student. Can he or she take the course?
+    -	My child is in grade 3. Can he/she take the course?
+    -	My child is in Grade 3. Is he or she eligible to take the course?
+    -	My child is in grade 4, can he/she take the course?
+    -	My child is a Grade 4 student. Can he or she take the course?
+    -	My child is in grade 4. Can he/she take the course?
+    -	My child is in Grade 4. Is he or she eligible to take the course?
+    -	My child is in grade 5, can he/she take the course?
+    -	My child is a Grade 5 student. Can he or she take the course?
+    -	My child is in grade 5. Can he/she take the course?
+    -	My child is in Grade 5. Is he or she eligible to take the course?
+    -	My child is in grade 6, can he/she take the course?
+    -	My child is a Grade 6 student. Can he or she take the course?
+    -	My child is in grade 6. Can he/she take the course?
+    -	My child is in Grade 6. Is he or she eligible to take the course?
+    -	My child is in grade 7, can he/she take the course?
+    -	My child is a Grade 7 student. Can he or she take the course?
+    -	My child is in grade 7. Can he/she take the course?
+    -	My child is in Grade 7. Is he or she eligible to take the course?
+    -	My child is in grade 8, can he/she take the course?
+    -	My child is a Grade 8 student. Can he or she take the course?
+    -	My child is in grade 8. Can he/she take the course?
+    -	My child is in Grade 8. Is he or she eligible to take the course?
+    -	My child is in grade 9, can he/she take the course?
+    -	My child is a Grade 9 student. Can he or she take the course?
+    -	My child is in grade 9. Can he/she take the course?
+    -	My child is in Grade 9. Is he or she eligible to take the course?
+    -	My child is in grade 10, can he/she take the course?
+    -	My child is a Grade 10 student. Can he or she take the course?
+    -	My child is in grade 10. Can he/she take the course?
+    -	My child is in Grade 10. Is he or she eligible to take the course?
+    -	My child is in grade 11, can he/she take the course?
+    -	My child is a Grade 11 student. Can he or she take the course?
+    -	My child is in grade 11. Can he/she take the course?
+    -	My child is in Grade 11. Is he or she eligible to take the course?
+    -	My child is in grade 12, can he/she take the course?
+    -	My child is a Grade 12 student. Can he or she take the course?
+    -	My child is in grade 12. Can he/she take the course?
+    -	My child is in Grade 12. Is he or she eligible to take the course?
+
+- intent: Specific_questions1
+  examples: |
+    - Which course for developing a mobile application?
+    -	What course to build a mobile application?
+    -	What course is involved in developing a mobile application?
+    -	How do I develop a mobile application?
+    -	What course does a mobile app take?
+    -	What class to develop a mobile application?
+    -	What course to develop your mobile application?
+    -	What is the Mobile App Development Course?
+    -	My child wants to create an application. Which course works?
+    -	My child wants to create an app. What class is appropriate?
+    -	My kid wants to create an app. Which course is right?
+    -	My child would like to create an application. What course is appropriate?
+    -	My child wishes to create an app. Which course is appropriate?
+    -	My kid wants to create an app. What course works?
+    -	My child wants to create an application. What course does it take?
+    -	My child wants to set up an application. Which course is appropriate?
+    -	How can I create a mobile app?
+    -	How do I set up a mobile app?
+    -	how to set up a mobile application?
+    -	How do I build a mobile application?
+    -	how to create mobile apps?
+    -	How do I create my mobile application?
+    -	How do I create the mobile app?
+    -	how to create an app?
+
+- intent: Specific_questions
+  examples: |
+    - What course to develop your website?
+    -	Which course for developing a web site?
+    -	What course for website development?
+    -	What class to develop a website?
+    -	What course is involved in developing a website?
+    -	What course to build a web site?
+    -	What course to set up a website?
+    -	How do I develop a website?
+    -	My kid wants to build a website. What course is appropriate?
+    -	My child wants to build a web site. What course works?
+    -	My child wants to create a website. What course does it take?
+    -	My child is interested in creating a website. What course is appropriate?
+    -	My child wants to create a website. What course is right for them?
+    -	My child would like to create a web site. Which course is appropriate?
+    -	My kid wants to create a website. Which course works?
+    -	My child would like to set up a website. What course is appropriate?
+    -	How do I design my website?
+    -	How to build a web site?
+    -	How do I create a web site?
+    -	How do I set up a website?
+    -	How can I build a website?
+    -	How do you design your website?
+    -	How do I design a webpage?
+    -	How can a web site be designed?
+    -	What course to set up a site?
+    -	How do you design your site?
+    - 	What course to develop your site?
+    -	My child wants to create a site. What course is right for them?
+    -	My kid wants to build a site. What course is appropriate?
+    -	How do I design my site?
+
+- intent: Monitor
+  examples: |
+    - Will you supervise each child separately?
+    -	Will you monitor every single child?
+    -	Will each child be supervised individually?
+    -	Will you look after every child individually?
+    -	Will you look after each child on an individual basis?
+    -	Will you monitor the individual children?
+    -	Do you monitor each child separately?
+    -	Will you monitor each child on a stand-alone basis?
+    -	Is there a 1-1 interaction in the live lectures?
+    -	Is there any 1-1 interaction in the live lessons?
+    -	Is there a 1-1 interaction in live tuition?
+    -	Is there a 1-1 interaction in direct courses?
+    -	Is there a 1-1 interaction with live lessons?
+    -	Is there a 1-1 interaction within the live courses?
+    -	Do live courses have a 1-1 interaction?
+    -	Is there a 1-1 interaction between live classes?
+    -	How do you treat my kid?
+    -	How do you deal with my child?
+    -	How can you take care of my child?
+    -	What can you do about my child?
+    -	How do you care for my child?
+    -	How do you treat your child?
+    -	How can you be of service to my child?
+    -	How can I be treated?
+    -	Is it necessary for a parent to sit beside the child during the courses?
+    -	Do parents have to sit next to the child during class?
+    -	Should a parent sit beside the child in class?
+    -	Is there a need for a parent to sit beside the child during school?
+    -	Is there a requirement for a parent to sit next to the child in class?
+    -	Should a parent sit next to the child at school?
+    -	Is it necessary for a parent to sit next to the child while the classes are taking place?
+    -	Does a parent sit beside the child during school?
+    -	Will they be individual sessions or group courses?
+    -	Is it going to be one-on-one or group classes?
+    -	Will this be an individual session or group lessons?
+    -	Is it an individual session or group classes?
+    -	Will these be individual sessions or group training?
+    -	Is this going to be a one-on-one session or group lessons?
+    -	Will these be one-to-one sessions or group courses?
+    -	Will these be one-on-one or group training?
+
+- intent: Time
+  examples: |
+    - How much time is allotted to a class?
+    -	How much time is allowed in a classroom?
+    -	How much time does one class have?
+    -	How long is a class allowed?
+    -	How much time does a classroom have?
+    -	How much time does a class receive?
+    -	How much time is allotted to the classroom?
+    -	How much time is given to one class?
+    -	How long is your course?
+    -	How long is a lesson?
+    -	How much is a course?
+    -	How long does one course last?
+    -	How long does a class take?
+    -	How long is the class?
+    -	What is the length of one course?
+    -	How long will the course take?
+    -	How many hours do you teach on a daily basis?
+    -	How many hours do you train every day?
+    -	How often do you teach every day?
+    -	How much time do you teach each day?
+    -	How many hours have you taught every day?
+    -	How many hours per day are you teaching?
+    -	How many hours a day can you teach?
+    -	How many hours of instruction do you have each day?
+    -	How is the time allotted to the classes?
+    -	How is the time allocated to the lessons?
+    -	How is school time allocated?
+    -	How is the time given to the courses?
+    -	How is your time allocated to courses?
+    -	How does the time allocate to classes?
+    -	How is time spent on courses?
+    -	How does the time allot to the courses?
+    -	Which are the most regular schedules?
+    -	What are the most regularly scheduled hours?
+    -	What are the more regular timetables?
+    -	What are your regular schedules?
+    -	What are the most consistent timetables?
+    -	What are the more frequent schedules?
+    -	What are the most frequent shifts?
+    -	Which are the more regular hours?
+    -	How are classes distributed?
+    -	How does the division of classes take place?
+    -	How does the class breakdown work?
+    -	How do you divide classes?
+    -	How does the class distribution come about?
+    -	How do classes break down?
+    -	How is the classification done?
+    -	How are the classrooms divided up?
+    -	How long is the course offered to the child to learn programming?
+    -	How long will the course take the child to learn programming?
+    -	How long is the course promised to the child to teach programming?
+    -	How much time is the class promised to the child to learn programming?
+    -	How long is a course promised to children to learn programming?
+    -	How long is the class given to the child to learn programming?
+    -	How long is the course promised to the child to learn the schedule?
+
+- intent: Size
+  examples: |
+    - How many pupils in a classroom?
+    -	How many students in one classroom?
+    -	How many pupils in one class?
+    -	How many kids in the classroom?
+    -	How many students do you have in your classroom?
+    -	How many students are there?
+    -	How many students does one class have?
+    -	How many students come into a classroom?
+    -	How strong is the classroom?
+    -	How powerful is the class?
+    -	How strong is this class?
+    -	What is the power of the classroom?
+    -	What is a strong class?
+    -	How strong is it?
+    -	What is your class strength?
+    -	What force does the class have?
+    -	How do you divide the number of pupils in the same course?
+    -	How do you divide a lot of students in one class?
+    -	How would you break down the number of students in the same class?
+    -	How do you divide many students on a single course?
+    -	How do you divide up students in the same class?
+    -	How do you split the number of students in the same classroom?
+    -	How are you splitting a lot of students on the same course?
+    -	How are you allocating the number of students in the same course?
+    -	How many kids are there in a lot?
+    -	What is the number of children per batch?
+    -	How many children are in the lot?
+    -	How many kids are in each batch?
+    -	How many kids do you have per batch?
+    -	How many children do you have in a lot?
+    -	How many children are in this batch?
+    -	How many kids are there per set?
+    -	What is your class size?
+    -	What is the size of your class?
+    -	What is the batch size?
+    -	What is the size of each batch?
+    -	What is the classroom size?
+    -	What is the student size per batch?
+
+- intent: Outcome
+  examples: |
+    - Can my child create the app himself or herself at the end of the course?
+    -	Can my child self-initiate an application at the end of the course?
+    -	Can my child create his or her own application at the end of the class?
+    -	Can my child create an app themselves once they have completed the course?
+    -	Can my child develop an application themselves after completing the course?
+    -	Can my child create their own application upon completion of the course?
+    -	Can my child create an application himself or herself after completing the class?
+    -	Can my child create an application on his or her own once he or she has completed the course?
+    -	how will my child get the benefit of this course?
+    -	In what way will my child benefit from this course?
+    -	How is my child going to take advantage of this course?
+    -	How will my child profit from this course?
+    -	How will my child benefit from it?
+    -	How will my kid benefit from this class?
+    -	How will my child take advantage of this class?
+    -	How is my child going to benefit from this training?
+    -	Can my child make his own play?
+    -	Can my child set up a game himself?
+    -	Is it possible for my child to create his own game?
+    -	Can my child come up with his own game?
+    -	Can my child self-build a game?
+    -	Can the child create his own game?
+    -	Can my kid create their own game?
+    -	Will my child create her own game?
+    -	Can my kid write his own curriculum?
+    -	Can my child write a program in person?
+    -	Is it possible for my child to write a program himself?
+    -	Does my child write their own program?
+    -	Can my child create a program himself?
+    -	Will my child write a program themselves?
+    -	Is my child able to write his or her own program?
+    -	Can my daughter write her own program?
+    -	Will an application be carried out at the end of the course?
+    -	Will it be applicable at the end of the course?
+    -	Is he going to apply at the end of the class?
+    -	Is there going to be an app at the end of the course?
+    -	Will he do an application at the end of the class?
+    -	Will he do something at the end of the course?
+    -	Does it apply at the end of the course?
+    -	Will there be an application upon completion of the course?
+
+
+- intent: Help
+  examples: |
+    - How do I convince my child to participate in a lesson?
+    -	How do I persuade my child to attend a class?
+    -	How do I get my kid to take a class?
+    -	How can I convince my child to take part in the class?
+    -	What can I do to convince my child to take a course?
+    -	How can I persuade my child to take a lesson?
+    -	How to persuade my child to take part in a course?
+    -	How do I talk my child into taking a course?
+    -	How does the course help them with other tasks like homework, etc.?
+    -	How does the course help them complete other tasks such as homework, etc.?
+    -	How does the course support her in other tasks such as homework, etc.?
+    -	How does the course help her with other tasks like homework and so on?
+    -	How is the course helping her with other tasks such as homework, etc.?
+    -	How does the course help her perform other duties such as homework, etc.?
+    -	How does it help her with other tasks such as homework, etc.?
+    -	How does the course assist with other tasks such as assignments, etc.?
+    -	My child likes football, not coding. How are you helping me?
+    -	My child loves soccer, not coding. How do you help me?
+    -	My kid likes football more than coding. How do you help me?
+    -	My kid likes soccer instead of coding. How do you help me?
+    -	My child loves football instead of coding. How can you help me?
+    -	My kid loves football as opposed to coding. How are you helping me?
+    -	My kid loves soccer rather than coding. How are you helping me?
+    -	My kid is lazy and doesn't finish his job?
+    -	My child is lazy, has not completed his/her job?
+    -	My child is lazy and does not end his work?
+    -	My child is lazy and does not complete his job?
+    -	Is my child lazy and not completing his or her work?
+    -	My child is lazy and won't finish his work?
+    -	My child is sluggish and does not finish his work?
+    -	My son is lazy and does not finish his work?
+    -	My child is not able to use a laptop. How do you help him?
+    -	My kid can't use a laptop. How can you help them?
+    -	My child cannot use a notebook. How can you help them?
+    -	My child cannot use a laptop. How do you assist him or her?
+    -	My child cannot use a portable computer. How can you help him?
+    -	My child cannot use a laptop. What can you do to help?
+    -	My child cannot use the laptop. How can you help him?
+    -	My child cannot work with a laptop. How do you help them?
+
+- intent: Suggestions
+  examples: |
+    - -	What would be the best course of action for my child?
+    -	What might be best for my kid?
+    -	What would work best for my child?
+    -	What would be the most effective solution for my child?
+    -	What would be the best way to help my child?
+    -	Is there anything better for my child?
+    -	Which would be the best option for my child?
+    -	What would be the best solution for my little one?
+    -	Would you be able to suggest courses?
+    -	Could you recommend courses?
+    -	Could you offer us some courses?
+    -	Do you have any suggestions for courses?
+    -	Could you give us some suggestions for classes?
+    -	Might you suggest courses?
+    -	Could you suggest something for us?
+    -	Can my child become a Software Engineer after attending these courses?
+    -	Can my child be a computer engineer after attending these courses?
+    -	Can my child become a computer engineer once he / she has taken these courses?
+    -	Can my child become a computer engineer upon completion of these courses?
+    -	Is my child eligible to become a software engineer after taking these courses?
+    -	Can my child become a software engineer after completing the classes?
+    -	Is it possible for my child to become a computer engineer after completing these courses?
+    -	Can my child become a computer scientist after taking these courses?
+    -	How do I convince my child to participate in a lesson?
+    -	How do I persuade my child to attend a class?
+    -	How do I get my kid to take a class?
+    -	How can I convince my child to take part in the class?
+    -	What can I do to convince my child to take a course?
+    -	How can I persuade my child to take a lesson?
+    -	How to persuade my child to take part in a course?
+    -	How do I talk my child into taking a course?
+    -	How does the course help them with other tasks like homework, etc.?
+    -	How does the course help them complete other tasks such as homework, etc.?
+    -	How does the course support her in other tasks such as homework, etc.?
+    -	How does the course help her with other tasks like homework and so on?
+    -	How is the course helping her with other tasks such as homework, etc.?
+    -	How does the course help her perform other duties such as homework, etc.?
+    -	How does it help her with other tasks such as homework, etc.?
+    -	How does the course assist with other tasks such as assignments, etc.?
+    -	Is it a better experience than other platforms?
+    -	Does the platform offer more experience than other platforms?
+    -	Does the platform offer a better experience than the rest of the platforms?
+    -	Is the platform a better experience compared to other platforms?
+    -	Does the platform offer a superior experience compared to other platforms?
+    -	Is the platform better than any other platforms?
+    -	Does this platform deliver a better experience than other platforms?
+    -	Does the platform offer a better experiment than other platforms?
+    -	What is the best journey for my child?
+    -	Which is the best route for my child?
+    -	What is the best route for my kid?
+    -	What is the best path for my baby?
+    -	What is the best course for your child?
+    -	What is the right path for my child?
+    -	Where is the best path for my child?
+    -	What is the best course for my child?
+    -	What language must my child learn first?
+    -	What language do I want my child to learn first?
+    -	What language should my child be taught first?
+    -	Which language is my child's first choice?
+    -	Which language does my kid have to learn first?
+    -	Which language does my child speak first?
+    -	Which language does your child need to learn first?
+    -	Which language should my child start with?
+
+
+- intent: Offers
+  examples: |
+    - Are there opportunities available for the professional course?
+    -	Are there any offers for professional training?
+    -	Do I have offers for the professional course?
+    -	Are there offers for the professional training course?
+    -	Are there any offers for the career course?
+    -	Are there openings for the professional course?
+    -	Are there any opportunities for the vocational course?
+    -	Are offers available for the middle course?
+    -	Are there any offers for the mid-level course?
+    -	Do you have offers for the intermediate course?
+    -	Are there opportunities for the middle course?
+    -	Are opportunities available for the intermediate course?
+    -	Are there options for the intermediate course?
+    -	Are there any middle course offers?
+    -	Are there any offers for the Startup Course?
+    -	Is there an offer for the start-up course?
+    -	Are there any offers for the Kick-Off Course?
+    -	Are there any offers for the Get Started course?
+    -	Are there opportunities available for the Startup Course?
+    -	Does a child get a concession in the fees if he/she is a merit student?
+    -	does a child benefit from a reduced fee if he / she is a merit student?
+    -	does a child get a concession in expenses if he/she is a student on merit?
+    -	does a child receive a fee reduction if the child is a merit student?
+    -	Is there a fee reduction for a child who is a merit student?
+    -	is a child entitled to a fee reduction if he/she is a student on merit?
+    -	does a child benefit from a reduction in fees if they are a student on merit?
+    -	Is there a discount for lessons?
+    -	Is there a discount on tuition?
+    -	Is there a rebate for classes?
+    -	Does the course offer a discount?
+    -	Is there a reduction for courses?
+    -	Do you have a discount on courses?
+    -	Do I get a discount for courses?
+
+
+- intent: Achievements
+  examples: |
+    - What did the students develop during the lectures?
+    -	What did students develop during their classes?
+    -	What have the students developed during the lessons?
+    -	What have the students developed in class?
+    -	What have the students developed over the course?
+    -	What have the students developed over the course?
+    -	What have students developed during their courses?
+    -	What did they develop during the classes?
+
+
+- intent: Special
+  examples: |
+    - How advanced is your company?
+    -	How far ahead is your business?
+    -	What is your company's head start?
+    -	What is your firm's advance?
+    -	What is your corporate lead?
+    -	What is the advance made by your company?
+    -	How much advance does your business have?
+    -	How much is your company ahead of schedule?
+    -	What makes your business special from others?
+    -	What makes your business unique to other businesses?
+    -	What makes your business different from other businesses?
+    -	What makes your business special than other businesses?
+    -	What makes your company special to others?
+    -	What makes you special from other businesses?
+    -	What makes your enterprise special from other enterprises?
+    -	What makes your company unique to other companies?
+    -	Is your platform one of a kind?
+    -	Is there only one platform?
+    -	Is your platform the same?
+    -	Do you have a single platform?
+    -	Does your platform stand alone?
+    -	What makes your platform unique?
+    -	Is your platform like no other?
+    -	Why choose codekaroyaaro?
+    -	Why opt for codekaroyaaro?
+    -	Why would anyone choose codekaroyaaro?
+    -	Why is codekaroyaaro the right choice?
+    -	Does your platform have any unique features?
+    -	Is it a better experience than other platforms?
+    -	What makes you think I should choose codekaroyaaro?
+    -	Does the platform offer more experience than other platforms?
+    -	Does the platform offer a better experience than the rest of the platforms?
+    -	Is the platform a better experience compared to other platforms?
+    -	Does the platform offer a superior experience compared to other platforms?
+    -	Is the platform better than any other platforms?
+    -	Does this platform deliver a better experience than other platforms?
+    -	Does the platform offer a better experiment than other platforms?
+    -	Why should I opt for codekaroyaaro?
+    -	Why do I need to choose codekaroyaaro?
+    -	Why should I decide on codekaroyaaro?
+    -	Why should I go with codekaroyaaro?
+    -	Why would I pick codekaroyaaro?
+    -	Why should I switch to codekaroyaaro?
+    -	Why do I have to select codekaroyaaro?
+
+
+- intent: Contact
+  examples: |
+    - How do I contact a company?
+    -	How do I reach the company?
+    -	How can I contact the business?
+    -	How do I contact the enterprise?
+    -	How do I get in touch with the business?
+    -	How can I contact this company?
+    -	How should I contact your company?
+    -	How do I contact your firm?
+    -	Is there a cost/price discount for ST/SC/OBC students?
+    -	Is there a cost/price decrease for ST/SC/OBC students?
+    -	Is there a cost/rate reduction for ST/SC/OBC students?
+    -	Is there a cost/price reduction to ST/SC/OBC students?
+    -	Are there any cost/price savings for ST/SC/OBC students?
+    -	Is there a cost/price reduction for ST/HC/OBC students?
+    -	Is there a reduction in the cost/price of ST/SC/OBC students?
+    -	How can I change professors?
+    -	How do I get another teacher?
+    -	How do I replace a teacher?
+    -	How do I switch professors?
+    -	How do I get a new professor?
+    -	How can I find another teacher?
+    -	How can I exchange a teacher?
+    -	How should I switch teachers?
+    -	How do we comment on my kid's learning?
+    -	How do we give feedback about my kid's learning?
+    -	What is our feedback on my child's learning?
+    -	How do we provide feedback about my child's education?
+    -	How do we discuss the learning of my child?
+    -	How do we comment on teaching my child?
+    -	What do we do about my child's learning?
+    -	What do we do about my child's learning?
+    -	How do we share my child's learning experience?
+    -	How to contact the company?
+    -	How do I get in touch with the company?
+    -	How do I contact your company?
+    -	How can I contact the business?
+    -	How to contact the firm?
+    -	How to connect with the business?
+    -	How do I communicate with a business?
+    -	How would you communicate with the company?
+    -	Do demo courses available?
+    -	Are demo courses available?
+    -	Is demo training available?
+    -	Are demo lessons available?
+    -	Are demo courses available?
+    -	Do demo courses exist?
+    -	Are there any demo courses?
+    -	Are demo courses offered?
+    -	Is demo training available?
+    -	Are there any offline courses held by CodeKaroYaro?
+    -	Are there any offline courses organized by CodeKaroYaro?
+    -	Are there any offline lessons organized by CodeKaroYaro?
+    -	Do you have any offline courses organized by CodeKaroYaro?
+    -	Are there out-of-line courses organized by CodeKaroYaro?
+    -	Are there any offsite courses organized by CodeKaroYaro?
+    -	Are there some offline courses organized by CodeKaroYaro?
+    -	Are there any offline courses that CodeKaroYaro organizes?
+    -	Is there a Doubt Approval session?
+    -	Is there a session to approve doubts?
+    -	Is there a sign-off session?
+    -	Is there an acceptance of doubt session?
+    -	Is there a meeting to approve suspicions?
+    -	Is there an approval session for suspicions?
+    -	Is there a doubtful approval session?
+    -	Is there a meeting of approval of the doubts?
+    -	Will there be a session for clearing the doubts?
+    -	Will there be a session to clear up the doubts?
+    -	Will there be a meeting to clear that up?
+    -	Will we have a meeting to clear the air?
+    -	Is there going to be a hearing to clear the air?
+    -	Will there be a session to clarify questions?
+    -	Is there going to be a meeting to dispel those doubts?
+    -	Is there going to be one meeting to clear up any concerns?
+    -	Where do I send a message or call for further details?
+    -	Where can I email or phone for more information?
+    -	Where can I send a message or call to obtain more information?
+    -	Where can I e-mail or call for more information?
+    -	How do I send a message or phone for more information?
+    -	Where do I text or call for more information?
+    -	Where can I send a message or telephone for additional information?
+    -	Where can I send a message/phone for more information?
+    -	How do I get in touch with the professor?
+    -	How do I reach the teacher?
+    -	How can I contact my teacher?
+    -	How to reach the professor?
+    -	How can I contact the instructor?
+    -	How can I contact a professor?
+    -	How does one contact the professor?
+    -	How do I contact him?
+    -	How to contact the teacher?
+    -	Do you offer financial assistance services?
+    -	Do you have any support services?
+    -	Do you provide financial support services?
+    -	Do you provide any financial assistance?
+    -	Have you any financial assistance services?
+    -	Do you have funding assistance?
+    -	Are you providing financial assistance services?
+    -	What is the primary way for tutors to interact—email, video chat, phone calls?
+    -	What are the primary way tutors will interact—by email, videoconference, phone?
+    -	What are the main way tutors will interact—via email, videoconference, telephone?
+    -	What are the main way tutors will interact—by email, video conference, telephone?
+    -	What are the main way tutors will interact—by e-mail, videoconference, telephone?
+    -	What are the main way tutors will interact—through email, videoconference, phone?
+    -	What are the primary way tutors will interact—via email, video conferencing, telephone?
+    -	What are the primary way tutors will interact—by e-mail, video conference, phone?
+    -	What are the primary way tutors will interact—by email, videoconference, phone?
+    -	What are the main way tutors will interact—via email, videoconference, telephone?
+    -	What are the main way tutors will interact—by email, video conference, telephone?
+    -	What are the main way tutors will interact—through email, videoconference, phone?
+    -	What are the main way tutors will interact—through email, videoconference, phone?
+    -	What are the primary way tutors will interact—by e-mail, video conference, phone?
+    -	What if we were to change course?
+    -	What happens when we change course?
+    -	And if we alter course?
+    -	And if we change direction?
+    -	Why don't we change course?
+    -	What if we turn around?
+    -	How about a change of course?
+    -	How about a change of course?
+    -	How to switch the course?
+    -	How do we alter course?
+    -	How do I get off course?
+    -	How can one change course?
+    -	How can we reverse course?
+    -	can I switch the course?
+    -	Can I switch my course?
+    -	May I alter course?
+    -	Is it okay if I change course?
+    -	Can I change my heading?
+    -	Do I get to change course?
+    -	Can I go another way?
+    -	Is there a change of course?
+    -	Do you mind if I change direction?
+    -	How about we change course?
+    -	And if we're going to change course?
+    -	What do you say we change course?
+    -	What if we want to do something different?
+    -	What if we need a new course?
+    -	What if there's a change of course?
+    -	What if we want to go in a different course?
+    -	And if we want a change of course?
+
+
+- intent: Differences
+  examples: |
+    - What is the difference among the different levels?
+    -	What is the difference between the individual levels?
+    -	What is the distinction between the different levels?
+    -	How do the different levels differ?
+    -	What is the difference between the different layers?
+    -	What is the difference between them?
+    -	Where is the difference between the different levels?
+    -	How is it different between the different levels?
+    -	What makes the levels different?
+    -	What is the difference between the levels?
+    -	How do they differ?
+    -	How is there a difference in levels?
+    -	How are the levels not the same?
+    -	How do the levels change?
+    -	In what ways do the levels differ?
+    -	How will the levels differ?
+    -	What's different about them?
+    -	How do the grades differ?
+    -	How are there differences in levels?
+    -	How do the levels change?
+    -	What is different about the levels?
+    -	How are the levels not the same?
+    -	How do levels differ from one another?
+    -	How are levels different from each other?
+    -	How will these levels be different?
+    -	In what ways will the levels be different?
+    -	How are they going to be different?
+    -	How will the grades be different?
+    -	How are the levels going to change?
+    -	How will there be differences in levels?
+    -	What are the levels going to be different from?
+    -	How do you see the levels being different?
+    -	Can you tell me what the levels are?
+    -	Tell me about the different levels?
+    -	What are the various levels?
+    -	Do you want to talk about the different levels?
+    -	How are the different levels?
+    -	Can you comment on the different levels?
+    -	Speak to me about the various levels?
+    -	Tell me about the various tiers?
+    -	Talk to me about these different levels?
+    -	Tell me about the various educational levels?
+    -	Can you talk about the different levels of education?
+    -	Tell me about different levels of schooling?
+    -	What about the various levels of education?
+    -	What about the different educational levels?
+
+
+- intent: Live_class_contents
+  examples: |
+    - What is the content of the live lessons?
+    -	What is the content of the live lectures?
+    -	What is the content of the live sessions?
+    -	What is the content of the online courses?
+    -	What is the content of the live coursework?
+    -	What is the content of the online courses?
+    -	What's in the live classes?
+    -	What is the content for the live courses?
+    -	Tell me about the live classes?
+    -	What about the live classes?
+    -	What about the live lessons?
+    -	Talk to me about the live lessons?
+    -	Can you tell me about live classes?
+    -	Tell me about live instruction?
+    -	Tell me about the online classes?
+    -	Tell me about these live lessons?
+    -	How about the live lessons?
+
+
+- intent: Course_contents
+  examples: |
+    - What is the curriculum?
+    -	What does the course content include?
+    -	What do the courses contain?
+    -	What do the courses consist of?
+    -	What does the course content look like?
+    -	What is the course material?
+    -	What course content is there?
+    -	What is being taught?
+    -	What are the contents of a course?
+    -	What is in one course?
+    -	What is in a lecture?
+    -	What is in the class?
+    -	What does a lesson include?
+    -	What is included with a course?
+    -	What does a class consist of?
+    -	What goes into a course?
+    -	Tell me about the contents available?
+    -	What content is available?
+    -	How much content is available?
+    -	Talk to me about what's available?
+    -	Tell me about the content you have?
+    -	Speak to me about the content available?
+    -	Can you tell me what is available?
+    -	What content is there?
+    -	Tell me about what's out there?
+
+- intent: Live_classes_prices
+  examples: |
+    - What are the prices for online courses?
+    -	What are the prices of the online courses?
+    -	What are the prices of the live lessons?
+    -	What are the prices of direct courses?
+    -	What are the prices for live tuition?
+    -	What are the prices of online classes?
+    -	What are the costs of the live courses?
+    -	What are the rates for live courses?
+    - what are the prices for live classes?
+    -	Can I find out the price of the courses online?
+    -	Can I know the price of the online courses?
+    -	Can I get the price of the live lessons?
+    -	Can I obtain the price of the live courses?
+    -	Can I find out the prices for the live classes?
+    -	May I ask for the price of the live courses?
+    -	Can I find out how much the live courses cost?
+    -	Can I ask about the price of the live classes?
+    -	Prices for direct courses?
+    -	Prices for direct lessons?
+    -	Prices for live tuition?
+    -	Prices for online courses?
+    -	Prices of live courses?
+    -	Rates for live lessons?
+    -	Prices for online courses?
+    -	Prices for live courses?
+    -	what is the price of the live classes?
+    -	What is the price of online courses?
+    -	What is the price of the live lessons?
+    -	What is the price of direct courses?
+    -	What is the price for online courses?
+    -	How much is the price of the live courses?
+    -	What is the cost of online courses?
+    -	What is the cost of live classes?
+    - May I know about the live classes pricing
+    - Price for the live classes
+    - How much are the live classes going to cost?
+    - Enquiry regarding liveclasses
+    - I'd like to inquire about the cost of live classes
+    - Live classes cost
+    - prices for 1:1 live interactive classes
+    - live classes having lowest price
+    - Available live classes options with prices
+    - Are live classes available and what cost?
+    - Different categories of live classes
+
+
+- intent: Course_price
+  examples: |
+    - What are the prices of the classes?
+    -	What are the prices of the lessons?
+    -	What are the rates of the courses?
+    -	What are the costs of the courses?
+    -	How are the prices of the courses?
+    -	What are the price lists?
+    -	What are the prices of tuition?
+    -	What are the prices of the lectures?
+    -	Can you tell me the price of the course?
+    -	What is the price of the course?
+    -	Can I inquire about the price of the course?
+    -	Can I find out the price for the course?
+    -	May I ask how much the course will cost?
+    -	Can I ask for the cost of the course?
+    -	Can I get the price of the class?
+    -	Can I find out how much the course is worth?
+    -	what will be the total cost of this Course?
+    -	What is the total cost of this course?
+    -	What will be the total cost of the course?
+    -	What will be the total cost for this course?
+    -	What will be the overall cost of this course?
+    -	what is the total cost of that course?
+    -	How much will the total cost of this course be?
+    -	What will the total cost of this training be?
+    -	Price of one course?
+    -	Cost of a course?
+    -	Rates for a class?
+    -	Price for one course?
+    -	Rates for a course?
+
+
+- intent: Statistics
+  examples: |
+    - Can you show us those statistics to date?
+    -	Are you able to show us the statistics to date?
+    -	Can you give us the stats to date?
+    -	Can you walk us through the statistics to date?
+    -	Can you give us the statistics at this point?
+    -	Can you show us the numbers up to now?
+    -	Can you provide us with the statistics up to now?
+    -	Do you have any statistics to show us so far?
+    -	What do the business stats say?
+    -	What do corporate statistics say?
+    -	What are the company's statistics?
+    -	What are the business statistics saying?
+    -	What about business statistics?
+    -	What do business statistics tell us?
+    -	What do your business statistics say?
+    -	What do corporate statistics tell you?
+    -	What are the current business statistics?
+    -	Can you give me the company's current statistics?
+    -	Tell me the actual statistics of the company?
+    -	Tell me the current corporate statistics?
+    -	What are your company's current statistics?
+    -	Tell me about current business statistics?
+    -	Can you tell me the business statistics?
+    -	Tell me what the company's statistics are right now?
+
+
+- intent: Values
+  examples: |
+    - What values does your company have?
+    -	What are your company's values?
+    -	what are the values of your organization?
+    -	What are the values in your business?
+    -	which are the values of your company?
+    -	What values do you have in your business?
+    -	What are your business' values?
+    -	What values does your business hold?
+    -	What are the values that guide your business?
+    -	What do these values mean to your company?
+    -	What underpin those values for your business?
+    -	On which values does your business base itself?
+    -	Where do these values come from for your business?
+    -	What values does your organization rely on?
+    -	What is the foundation of these values for your organization?
+    -	Why are these values important to your business?
+    -	how is codekaroyaaro better than other eLearning platforms?
+    -	how is codekaroyaaro better than other web-based learning platforms?
+    -	how is codekaroyaaro superior to other online learning platforms?
+    -	how is codekaroyaaro superior to other e-learning platforms?
+    -	how is codekaroyaaro better compared to other online learning platforms?
+    -	how is codekaroyaaro better than other online learning platforms?
+    -	What makes codekaroyaaro better than other online learning platforms?
+    -	how is codekaroyaaro better than other electronic learning platforms?
+    -	What is the significance of computer education for schoolchildren?
+    -	How important is computer literacy for students?
+    -	How important is IT education to school children?
+    -	How important is computer training for school children?
+    -	What is the importance of computer literacy for students?
+    -	what is the importance of computer education to pupils?
+    -	How important is the teaching of informatics for school children?
+    -	How important is the teaching of information technology to schoolchildren?
+
+
+- intent: Partners
+  examples: |
+    - You have partners, right?
+    -	You guys got partners?
+    -	Are there any partners?
+    -	You have some partners?
+    -	Do you have friends?
+    -	You got partners or something?
+    -	Do you have partners or anything?
+    -	Got any partners yet?
+    -	Any of the partners from the company?
+    -	Any partners from the firm?
+    -	Any associates of the firm?
+    -	Business associates from the company?
+    -	Are they business associates?
+    -	Some of the company's associates?
+    -	Some of the business partners?
+    -	Are they partners in the firm?
+    -	I want to learn more about your associates?
+    -	Do I need to know more about your partners?
+    -	Want to hear more about your partners?
+    -	You want to tell me more about your associates?
+    -	Want to know more about your business associates?
+    -	Would you like me to find out more about your associates?
+    -	Should I know more about your associates?
+    -	Would you like to know more about your partners?
+
+
+- intent: Course_levels
+  examples: |
+    - what were the levels of training?
+    -	what were the lesson levels?
+    -	what were the school levels?
+    -	what were the educational levels?
+    -	what were the lecture levels?
+    -	the levels of courses?
+    -	what were the grades of the courses?
+    -	what were the course levels you offer?
+    -	what were your course levels?
+    -	what levels of courses did you offer?
+    -	what levels of education did you offer?
+    -	what were the levels of training you offered?
+    -	what were the levels of education you offered?
+    -	what levels of training did you offer?
+    -	What types of courses do you have available on your platform?
+    -	What types of courses are offered across your platform?
+    -	What are the different types of classes offered on your platform?
+    -	What kinds of courses do you offer on your platform?
+    -	What kinds of classes are available on your platform?
+    -	What types of courses exist on your platform?
+    -	What are the various types of lessons available on your platform?
+    -	What types of courses are available on your website?
+
+
+- intent: Enrollment
+  examples: |
+    - How do we check in?
+    -	How do we get on board?
+    -	How are we supposed to sign up?
+    -	How do we get into it?
+    -	How can we join?
+    -	How should we register?
+    -	What are we supposed to do?
+    -	How does one sign up?
+    -	How do I enroll in this course?
+    -	How can I enroll in the course?
+    -	How to join the course?
+    -	How do I register for this class?
+    -	How do I get into the course?
+    -	How should you register for the course?
+    -	What are the methods of registering for the course?
+    -	How do I sign up for my course?
+    -	ways to register?
+    -	ways to sign up?
+    -	methods of registering?
+    -	ways you can register?
+    -	how to apply?
+    -	ways to get involved?
+    -	How you can sign up?
+    -	I want to check in?
+    -	I need to register?
+    -	I want to take part?
+    -	I want to get on board?
+    -	I'm going to sign up?
+    -	I want to get into it?
+    -	I want to become a member?
+    -	I want to be a part of it?
+    -	Can I enroll now?
+    -	Is it okay if I sign up?
+    -	Can I join the program?
+    -	How can I join the program?
+    -	Do I get to sign up?
+    -	Can I register, please?
+    -	Is it all right if I join?
+    -	May I register now?
+    -	Mind if I apply?
+    -	Can I enroll in the classes?
+    -	Can I enroll in a course?
+    -	Can I apply for the courses?
+    -	Can I register in class?
+    -	Can I enroll in lessons?
+    -	May I register for lessons?
+    -	Can I enroll for classes?
+    -	Am I able to register for courses?
+    -	How can I enroll in the classes?
+    -	How do I register to take the courses?
+    -	How can I sign up for classes?
+    -	How do I enroll in these courses?
+    -	How do I enroll for classes?
+    -	How can I register for lessons?
+    -	how can I enroll to the classes?
+    -	How do I enroll in classes?
+    -	How to enroll in the courses?
+    -	How to register for lessons?
+    -	How to enroll in classes?
+    -	How can I register for the courses?
+    -	How do I sign up for classes?
+    -	How do I enroll in a course?
+    -	How can I enroll in classes?
+    -	What are the ways to enroll in the classes?
+    -	How do I register for a course?
+    -	How to register for lessons?
+    -	How to sign up for classes?
+    -	What are the methods of enrolling in courses?
+    -	What are some ways to enroll in courses?
+    -	What are the ways you can register for courses?
+    -	How to subscribe to the courses?
+    -	ways to enroll in classes?
+    -	How to enroll in courses?
+    -	How to apply for courses?
+    -	ways of registering for courses?
+    -	ways of enrolling in courses?
+    -	How do I enroll in classes?
+    -	How can I enroll in courses?
+    -	How to register for training?
+    -	How should I go live?
+    -	Do I want direct lessons?
+    -	Do I need to go live?
+    -	Should I get a live lecture?
+    -	Do I want a live course?
+    -	You think I want live lessons?
+    -	What am I looking for, live lessons?
+    -	How can I enroll in the classes?
+    -	How do I register to take the courses?
+    -	How can I sign up for classes?
+    -	How do I enroll in these courses?
+    -	How do I sign up for my courses?
+    -	How do I enroll for classes?
+    -	How can I enroll in a course?
+    -	How can I register for lessons?
+
+- intent: Change
+  examples: |
+    - How do I change my schedule or teacher?
+    -	Who do I contact to change my schedule / instructor?
+    -	Who do I contact to change my batch/teacher calendar?
+    -	Who do I contact to modify the calendar of my batch or my teacher?
+    -	Who do I contact when modifying my schedule or teacher?
+    -	Who do I contact to edit my batch schedule or teacher?
+    -	Who do I contact for a change in my schedule or teacher?
+    -	Who should I contact to adjust my schedule or teacher?
+    -	What if my kid wants to change the assigned teacher's batch?
+    -	What if my son wants a change of teacher?
+    -	And if my son wants to switch teachers?
+    -	What if my child would like to change the teacher assigned the lot?
+    -	What if my boy wants a new teacher?
+    -	What if my son needs another teacher?
+    -	What if my son wants a different professor?
+    -	What if my son wants to change instructors?
+    -	My kid wants to have a change of time/ teacher?
+    -	My child wants to switch time/teacher?
+    -	Does my child want an hour change/ teacher?
+    -	Is my child changing time/teacher?
+    -	My child wants to change his time/professor?
+    -	My child wants a change of time/teacher?
+    -	My child would like to have an hour change/ teacher?
+    -	My kid wants to have an hour change/ professor?
+    -   How to change my teacher
+    -	How to change my batch
+    -	how to change mentor
+    -	How to change my timings
+
+
+- intent: Programming_languages
+  examples: |
+    - What Programming Languages Do You Teach?
+    -	Which programming languages are you teaching?
+    -	What are your programming languages?
+    -	What programming languages do you offer?
+    -	What programming languages would you teach?
+    -	What programming languages are you learning?
+    -	Which of the following languages do you teach?
+    -	What languages of programming are taught?
+    -	Which programming language is appropriate to my child?
+    -	What programming language is right for your child?
+    -	Which programming language is right for my baby?
+    -	What programming language can I teach my child?
+    -	Which programming language suits my kid?
+    -	What programming language does my kid learn?
+    -	Which programming language makes sense for my child?
+    -	Which programming language can your child learn?
+    -	Which language is in vogue?
+    -	Which language is popular?
+    -	What language is trendy?
+    -	Which language is on the rise?
+    -	What kind of language is trending?
+    -	What language is on the move?
+    -	Which language is in the mood?
+    -	What is the language of the day?
+    -	What language would anyone expect a child to know?
+    -	What language does everybody expect a child to understand?
+    -	What language is everybody expecting a kid to know?
+    -	What language is everybody waiting for a child to learn?
+    -	What language does everyone expect an infant to know?
+    -	Which language does everybody wait for a child to know?
+    -	What is everyone's language expected of a child?
+    -	Which language is everyone waiting for a kid to know?
+    -	Which coding language is right for a start?
+    -	Which coding language is good for starters?
+    -	What encoding language is good to start with?
+    -	Which coding language is a good place to start?
+    -	What coding language is right for the first time?
+    -	What coding language is a good starting point?
+    -	What encoding language is right for starters?
+    -	What coding language is good in the first place?
+    -	Guidance on programming languages?
+    -	Guide you on programming languages?
+    -	What about programming languages?
+    -	How to use programming languages?
+    -	Guide us on coding languages?
+    -	Help us learn programming languages?
+    -	What are the programming languages?
+    -	Will we be guided by the programming languages?
+    -	Is it possible for my child to learn Java on your platform?
+    -	Can my child learn Java on your platform?
+    -	Does my child learn Java on your platform?
+    -	Will my kid learn Java on your platform?
+    -	Can my little one learns Java on your platform?
+    -	Can my child find out about Java on your platform?
+    -	Can my kid learn Java through your platform?
+    -	Can my child learn Java online?
+    -	What are your coding languages?
+    -	Which encryption languages do you teach?
+    -	What coding languages are you learning?
+    -	Which encoding languages are you teaching?
+    -	What coding languages are you teaching?
+    -	What coding tongues do you teach?
+    -	What programming languages are you teaching?
+    -	What coding languages do you provide?
+
+
+- intent: Coding
+  examples: |
+    - Why is coding significant?
+    -	What makes coding important?
+    -	Why is coding critical?
+    -	Why does encoding matter?
+    -	Why is coding relevant?
+    -	What is the importance of coding?
+    -	What is important about coding?
+    -	Why is it important to encrypt?
+    -	Why must my son learn to code?
+    -	Why should my son know how to code?
+    -	Why should my son learn to encrypt?
+    -	Why would my boy have to learn to code?
+    -	What makes you think my son should learn to code?
+    -	Why would my son be taught to code?
+    -	How come my son needs to learn to code?
+    -	Why does my son have to learn to encode?
+    -	Why is coding crucial?
+    -	Why is coding important?
+    -	Why is coding necessary?
+    -	Why is encryption critical?
+    -	Why Does Coding Matter?
+    -	Why is coding a necessity?
+    -	Why is encoding vital?
+    -	Why does coding have to be done?
+    -	How does coding help in future careers?
+    -	how coding is helping future careers?
+    -	how coding assists future careers?
+    -	how coding supports future careers?
+    -	how it helps future careers?
+    -	how coding can help future careers?
+    -	how coding aids future careers?
+    -	how encoding helps future careers?
+    -	Does coding help with personality development?
+    -	Does coding aid in personality enhancement?
+    -	Does it help to improve personality?
+    -	Is coding helping to enhance personality?
+    -	Does coding contribute to personality improvement?
+    -	Does coding assist with personality enhancement?
+    -	Does encoding help enhance personality?
+    -	Does coding assist in personality improvement?
+    -	To what extent does coding work?
+    -	To what degree is coding effective?
+    -	What is the effectiveness of coding?
+    -	How efficient is the encryption?
+    -	To what extent is encryption effective?
+    -	To what extent is coding successful?
+    -	How effectively does the coding work?
+    -	To what extent is encoding efficient?
+    -	Is coding a challenge?
+    -	How difficult is it to learn?
+    -	Is coding difficult to understand?
+    -	Is encoding challenging to learn?
+    -	Do you find coding difficult to learn?
+    -	Are the encodings difficult to learn?
+    -	How difficult is coding?
+    -	Does coding make it hard to learn?
+    -	How can you maintain the interest of a young child in coding who enjoys playing too much?
+    -	How do you keep a younger child interested in coding that likes to play a lot as well?
+    -	How do you maintain a younger child's interest in coding that enjoys playing a lot as well?
+    -	How can you maintain a young child's interest in coding who loves to play too much?
+    -	How do you maintain a younger kid's interest in coding that likes to play a lot too?
+    -	How can you keep a young child interested in encoding who likes to play too much?
+    -	How can you keep a young child interested in coding that enjoys playing too much?
+    -	How can you maintain the interest of a young child in coding that likes to play so much?
+    -	Will there be no stress/health issues for my child if he continuously code at this early stage?
+    -	There will be no stress/health issues for my child if he consistently codes at this early stage?
+    -	Will my child not suffer from stress or health problems if he does not stop encoding at this early stage?
+    -	Will my child not suffer from stress or health issues if he keeps coding at this early stage?
+    -	There will be no stress/health problems for my child if he continually codes at that early stage?
+    -	Will my child not experience stress or health problems if he or she continues to code at this early stage?
+    -	Will my child not suffer from stress or health problems if he continues to code at that early stage?
+    -	There will be no stress/health problems for my child if he continually codes at that early stage?
+    -	Will my child not experience stress or health problems if he or she continues to code at this early stage?
+    -	Will my child not suffer from stress or health problems if he continues to code at that early stage?
+    -	Will my child not suffer from stress or health issues if he does not stop coding at that early stage?
+    -	I want to examine the significance of coding?
+    -	I would like to talk about how important programming is?
+    -	I want to look at how important coding is?
+    -	I want to talk about the value of programming?
+    -	I want to explore the importance of encryption?
+    -	Let me speak about the importance of programming?
+    -	I would like to point out the importance of programming?
+    -	Let me look at the importance of coding?
+    -	Is coding required?
+    -	Do you need the coding?
+    -	Is coding a necessity?
+    -	Does coding need to occur?
+    -	Does coding require?
+    -	Does coding have to happen?
+    -	Do we need to teach coding at a younger age?
+    -	Should coding be taught early in life?
+    -	Must you teach coding at a younger age?
+    -	Is coding something that has to be taught at a younger age?
+    -	Do you have to teach coding at an earlier age?
+    -	Should encoding be taught at an earlier age?
+    -	Should coding be taught as a young person?
+    -	Should coding be taught to young people?
+    -	After seeing many ads of CodeKaroYaro my child has shown interest in coding. Is it good?
+    -	After seeing many advertisements from CodeKaroYaro my child showed interest in coding. Is it good?
+    -	After seeing a lot of ads from CodeKaroYaro my child showed interest in encoding. Is it good?
+    -	After seeing a lot of announcements from CodeKaroYaro my kid showed interest in coding. Is it good?
+    -	After seeing numerous ads for CodeKaroYaro, my child showed interest in coding. Is that good?
+    -	After seeing numerous advertisements from CodeKaroYaro, my child showed an interest in coding. Is that right?
+    -	After seeing numerous CodeKaroYaro commercials, my child showed an interest in coding. Is this good?
+    -	After seeing a lot of CodeKaroYaro commercials, my child showed an interest in coding. Is that okay?
+    -	How does coding impact my child in this step?
+    -	How is the coding impacting my child at this point?
+    -	How does coding affect my child at this point?
+    -	What does code mean for my child at this stage?
+    -	How does coding affect my kid at this stage?
+    -	What impact does encoding have on my child at this point?
+    -	What is the impact of coding on my child so far?
+    -	How does coding affect my child during this phase?
+    -	Is coding a requirement at age 7?
+    -	Is coding required by age seven?
+    -	Is encoding required by age 7?
+    -	Is coding needed when you are 7 years old?
+    -	Is coding required to be 7 years old?
+    -	Is coding required when you turn 7?
+    -	Is coding required when you are seven years of age?
+    -	Is coding required at seven years old?
+    -	Is coding required when you are 8 years of age?
+    -	Is coding a requirement at age 8?
+    -	Is coding required by 8 years old?
+    -	Is coding needed when you are 8 years old?
+    -	Is coding required at 8 years old?
+    -	Is coding required at eight years old?
+    -	Is encoding required by age 8?
+    -	Is coding required by age eight?
+    -	Is encryption required at age 9?
+    -	Is coding a requirement at age 9?
+    -	Is coding required by age nine?
+    -	Is coding required at nine years old?
+    -	Is coding required when you are nine years of age?
+    -	Is coding needed when you are 9 years old?
+    -	Is coding required by age 9?
+    -	Is coding required to be 9 years old?
+    -	Is coding required at age ten?
+    -	Is encryption required at age 10?
+    -	Is coding a requirement at age 10?
+    -	Is coding required by age 10?
+    -	Is coding needed when you are 10 years old?
+    -	Is coding required when you turn 10?
+    -	Is coding required at 10 years old?
+    -	Is coding required when a person is 10 years old?
+    -	Is coding required at 11 years old?
+    -	Is encryption required at age 11?
+    -	Is coding a requirement at age 11?
+    -	Is coding required at age eleven?
+    -	Is coding required for age 11?
+    -	Is coding required when you turn 11?
+    -	Is coding required by age 11?
+    -	Is coding needed when you are 11 years old?
+    -	Is coding a requirement at age 12?
+    -	Is encryption required at age 12?
+    -	Is coding required at age twelve?
+    -	Is coding required by age 12?
+    -	Is coding required when you turn 12?
+    -	Is coding needed when you are 12 years old?
+    -	Is coding required on age 12?
+    -	Is coding required at 12 years old?
+    -	Is coding required at 13 years old?
+    -	Is encryption required at age 13?
+    -	Is coding a requirement at age 13?
+    -	Is coding required when you turn 13?
+    -	Is coding required by age 13?
+    -	Is coding required at age thirteen?
+    -	Is coding needed when you are 13 years old?
+    -	Is coding needed by age 13?
+    -	Is coding required at 14 years old?
+    -	Is encryption required at age 14?
+    -	Is coding a requirement at age 14?
+    -	Is coding required at age fourteen?
+    -	Is coding required for age 14?
+    -	Is coding required when you turn 14?
+    -	Is coding required by age 14?
+    -	Is coding needed when you are 14 years old?
+    -	Is coding required at 15 years old?
+    -	Is encryption required at age 15?
+    -	Is coding a requirement at age 15?
+    -	Is coding required when you turn 15?
+    -	Is coding needed when you are 15 years old?
+    -	Is coding needed by age 15?
+    -	Is encryption required at age 6?
+    -	Is coding a requirement at age 6?
+    -	Is coding required by age six?
+    -	Is coding required by age 6?
+    -	Is coding needed when you are 6 years old?
+    -	Is coding required at six years old?
+    -	Is coding required to be 6 years old?
+    -	Is coding required when you are six years of age?
+    -	Is coding required at the age of 6?
+    -	Is coding required at the age of 15?
+    -	Is encryption required at age 16?
+    -	Is coding a requirement at age 16?
+    -	Is coding required when you turn 16?
+    -	Is coding required at age sixteen?
+    -	Is coding required by age 16?
+    -	Is coding needed when you are 16 years old?
+    -	Is coding required as a 16-year-old?
+    -	Is coding required when a person is 16 years of age?
+
+
+- intent: Payment
+  examples: |
+    - How do I pay?
+    -	How can I make my payment?
+    -	How do I make this payment?
+    -	How do I make the payout?
+    -	How do I complete my payment?
+    -	How should I make the payment?
+    -	Where can I make the payment?
+    -	How to make a payment?
+    -	Is the IME option available?
+    -	Does the EMI option exist?
+    -	Is the NDE feature available?
+    -	Is the EMI option possible?
+    -	Is EMI currently available?
+    -	Is the EMI optional?
+    -	Which payout options are available?
+    -	What payment options exist?
+    -	What payment options do you have?
+    -	Are there any payment options available?
+    -	Where are the payment options available?
+    -	What payment options are offered?
+    -	What payments are available?
+    -	Can I carry out a digital payment?
+    -	Can I make a digital payout?
+    -	Can I pay electronically?
+    -	Is it possible to make a digital payment?
+    -	Can I pay in digital format?
+    -	Can I pay on a digital basis?
+    -	Am I able to pay digitally?
+    -	Can I make an e-payment?
+    -	What payment options exist?
+    -	What payment options do you have?
+    -	What payments are available?
+    -	What payout options are available?
+    -	What payment options are offered?
+    -	Are there any payment options available?
+    -	How are payment options available?
+    -	Where are the payment options available?
+    -	may I pay the fee in several installments?
+    -	Can I pay by installment?
+    -	Can I pay a fee per installment?
+    -	Can I pay the charges by installments?
+    -	Can I pay through installments?
+    -	Can I pay the fee by installs?
+    -	Can I pay the charges per installment?
+    -	Can I pay the costs in installments?
+    -	May I pay the fee by installments?
+    -	Can I know how much we pay per session?
+    -	Can I get a cost for each session?
+    -	How much do we pay per session?
+    -	May I ask how much each session costs?
+    -	Do I know the cost of each session?
+    -	Can I find out the cost of each meeting?
+    -	What is the cost for each session?
+    -	Can you tell me what we pay per session?
+
+
+- intent: Options
+  examples: |
+    -   What can you do to help me?
+    -	What can you help me with?
+    -	How could you be of any help?
+    -	How would you be able to help?
+    -	How could you give me a hand?
+    -	How could you be of service to me?
+    -	Is there anything you can do to help me?
+    -	What would you do for me?
+    -	What do you have to do?
+    -	What do you have to do?
+    -	How can you help?
+    -	Is there anything you can do?
+    -	How can you do that?
+    -	What's there to do?
+    -	What do you want from me?
+    -	What do you want from me?
+    -	What are you up to?
+    -	How much assistance do you provide?
+    -	What is your assistance?
+    -	How much help are you giving?
+    -	What assistance do you offer?
+    -	What aid are you giving?
+    -	How do you assist?
+    -	What support do you give?
+    -	What support are you offering?
+    -	What can you do to help?
+    -	How might you be useful?
+    -	How can you assist?
+    -	What can you do for me?
+    -	What can you be of help?
+    -	What can you be of help?
+    -	How might you help?
+    -	How are you able to help?
+    -	How can you make a difference?
+    -	What assistance is available?
+    -	What support is in place?
+    -	What support exists?
+    -	What support does the program provide?
+    -	How much support does it provide?
+    -	How is the support available?
+    -	What help is provided?
+    -	Is there any support?
+
+
+- intent: Courses
+  examples: |
+    - Types of lessons
+    -	Types of lectures.
+    -	Types of coursework.
+    -	Types of instruction.
+    -	Kinds of classes.
+    -	Types of training.
+    -	Types of sessions.
+    -	Types of courts.
+    -	which courses do you offer?
+    -	what classes are you offering?
+    -	what training do you offer?
+    -	What are your courses?
+    -	What courses are available?
+    -	What courses are you teaching?
+    -	What courses can you offer?
+    -	What classes do you teach?
+    -	Get me a list of available classes?
+    -	Give me a list of available lessons?
+    -	Provide me with a list of available courses?
+    -	Give me a list of the classes?
+    -	Give me a list of what's available?
+    -	Tell me what classes are available?
+    -	I need a list of available classes?
+    -	Tell me what courses are available?
+    -	Tell me what classes are provided?
+    -	Tell me what classes they offer?
+    -	Let me know what the courses are?
+    -	Tell me about the courses?
+    -	Tell me what training is offered?
+    -	Let me know which classes are offered?
+    -	Tell me which courses you have?
+    -	I want to know what courses are offered?
+    -	What courses help your child?
+    -	What classes assist my child?
+    -	Which courses support my child?
+    -	Which classes help my baby?
+    -	What lessons help my kid?
+    -	What programs help my child?
+    -	How do I help my child?
+    -	What courses are helpful to my child?
+    -	What basics do you train on your platform?
+    -	What are the fundamentals of your platform?
+    -	What building blocks are you teaching on your platform?
+    -	Which foundations are you teaching on your platform?
+    -	What fundamentals do you teach about your platform?
+    -	How do you teach on your platform?
+    -	What are your basics for your platform?
+    -	What foundations do you provide on your platform?
+    -	Which classes are you going to take?
+    -	What classes will you be working on?
+    -	Which classes will you touch?
+    -	What courses are you about to take?
+    -	What classes will you get?
+    -	What classes are you going to be involved in?
+    -	What courses are you going to be dealing with?
+    -	Which courses will you be attending?
+    -	Which classes are you going to take?
+    -	What classes will you be working on?
+    -	Which classes will you touch?
+    -	What courses are you about to take?
+    -	What classes will you get?
+    -	What classes are you going to be involved in?
+    -	What courses are you going to be dealing with?
+    -	Which courses will you be attending?
+    -   What are the various courses?

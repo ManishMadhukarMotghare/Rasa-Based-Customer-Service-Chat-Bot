@@ -1,0 +1,239 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: thanks
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+
+
+- story: achievements
+  steps:
+  - intent: Achievments
+  - action: utter_Achievments
+
+- story: company_details
+  steps:
+  - intent: Company_details
+  - action: utter_Company_details
+
+- story: cancellation_and_refund
+  steps:
+  - intent: Cancellation_and_Refund
+  - action: utter_Cancellation_and_Refund
+
+- story: coding_language
+  steps:
+  - intent: Coding_Languages
+  - action: utter_Coding_Languages
+
+- story: multiple_courses
+  steps:
+  - intent: Multiple_courses
+  - action: utter_Multiple_courses
+
+- story: specific_question_2
+  steps:
+  - intent: Specific_questions2
+  - action: utter_Specific_questions2
+
+- story: specific_question_3
+  steps:
+  - intent: Specific_questions3
+  - action: utter_Specific_questions3
+
+- story: specific_question_4
+  steps:
+  - intent: Specific_questions4
+  - action: utter_Specific_questions4
+
+- story: missed_classes
+  steps:
+  - intent: Missed_Classes
+  - action: utter_Missed_Classes
+
+- story: specific_question_5
+  steps:
+  - intent: Specific_questions5
+  - action: utter_Specific_questions5
+
+- story: specific_question_6
+  steps:
+  - intent: Specific_questions6
+  - action: utter_Specific_questions6
+
+
+
+- story: eligibility
+  steps:
+  - intent: Eligible
+  - action: utter_Eligible
+
+- story: specific_question_1
+  steps:
+  - intent: Specific_questions1
+  - action: utter_Specific_questions1
+
+- story: specific_question
+  steps:
+  - intent: Specific_questions
+  - action: utter_Specific_questions
+
+- story: monitor
+  steps:
+  - intent: Monitor
+  - action: utter_Monitor
+
+- story: time
+  steps:
+  - intent: Time
+  - action: utter_Time
+
+- story: size
+  steps:
+  - intent: Size
+  - action: utter_Size
+
+- story: outcome
+  steps:
+  - intent: Outcome
+  - action: utter_Outcome
+
+- story: help
+  steps:
+  - intent: Help
+  - action: utter_Help
+
+- story: suggestions
+  steps:
+  - intent: Suggestions
+  - action: utter_Suggestions
+
+- story: offers
+  steps:
+  - intent: Offers
+  - action: utter_Offers
+
+
+- story: special
+  steps:
+  - intent: Special
+  - action: utter_Special
+
+- story: contact
+  steps:
+  - intent: Contact
+  - action: utter_Contact
+
+- story: diffrences
+  steps:
+  - intent: Differences
+  - action: utter_Differences
+
+- story: live_class_content
+  steps:
+  - intent: Live_class_contents
+  - action: utter_Live_class_contents
+
+- story: course_content
+  steps:
+  - intent: Course_contents
+  - action: utter_Course_contents
+
+
+- story: live_class_price
+  steps:
+  - intent: Live_classes_prices
+  - action: utter_Live_classes_prices
+
+
+- story: course_price
+  steps:
+  - intent: Course_price
+  - action: utter_Course_price
+
+- story: statistics
+  steps:
+  - intent: Statistics
+  - action: utter_Statistics
+
+- story: values
+  steps:
+  - intent: Values
+  - action: utter_Values
+
+- story: partners
+  steps:
+  - intent: Partners
+  - action: utter_Partners
+
+- story: course_levels
+  steps:
+  - intent: Course_levels
+  - action: utter_Course_levels
+
+
+- story: enrollment
+  steps:
+  - intent: Enrollment
+  - action: utter_Enrollment
+
+- story: change
+  steps:
+  - intent: Change
+  - action: utter_Change
+
+
+- story: programming_languages
+  steps:
+  - intent: Programming_languages
+  - action: utter_Programming_languages
+
+- story: coding
+  steps:
+  - intent: Coding
+  - action: utter_Coding
+
+- story: payment
+  steps:
+  - intent: Payment
+  - action: utter_Payment
+
+- story: options
+  steps:
+  - intent: Options
+  - action: utter_Options
+
+- story: courses
+  steps:
+  - intent: Courses
+  - action: utter_Courses
